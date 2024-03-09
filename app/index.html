@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="main.js"></script>
+        <script src="socket.io/socket.io.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Typing Monkeys</title>
+    </head>
+    <body onload="init_socket()">
+        <h1 class="left">Typing</h1>
+        <h1 class="right">Monkeys</h1>
+
+        <div class="paper">
+            <p id="paper_text" class="paper_text"></p>
+        </div>
+    </body>
+</html>
